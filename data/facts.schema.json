@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fangmumu111-bot.github.io/grok-cn-recharge-guide/data/facts.schema.json",
+  "title": "Grok CN recharge facts",
+  "type": "object",
+  "required": ["project", "official", "aixiamo"],
+  "properties": {
+    "project": {
+      "type": "object",
+      "required": ["name", "maintainer", "affiliation", "checkedAt"]
+    },
+    "official": {
+      "type": "object",
+      "required": ["free", "superGrok", "superGrokPlus", "heavy", "api"]
+    },
+    "aixiamo": {
+      "type": "object",
+      "required": ["checkedAt", "product", "priceCny", "periodMonths", "payments", "ownerPage", "productPage", "orderQuery"]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,66 @@
+{
+  "$schema": "./facts.schema.json",
+  "project": {
+    "name": "Grok 国内充值与会员开通指南",
+    "maintainer": "AIXiamo（AI夏末）运营方",
+    "affiliation": "独立第三方项目，不代表或获 xAI、X 背书",
+    "checkedAt": "2026-08-12"
+  },
+  "official": {
+    "free": {
+      "publicPrice": "$0/月",
+      "source": "https://x.ai/pricing"
+    },
+    "superGrok": {
+      "publicPrice": "$30/月",
+      "source": "https://x.ai/pricing"
+    },
+    "superGrokPlus": {
+      "publicPrice": "$100/月",
+      "source": "https://x.ai/pricing"
+    },
+    "heavy": {
+      "currentPublicPricePage": "xAI 当前公开价格页列出 Heavy，但未公开显示金额",
+      "usAppStoreLine": "SuperGrok Heavy $300.00；该静态条目未标明账期",
+      "historicalLaunchPrice": "$300/月（2025-07 发布价报道）",
+      "sources": [
+        "https://x.ai/pricing",
+        "https://apps.apple.com/us/app/grok-ai/id6670324846",
+        "https://techcrunch.com/2025/07/09/elon-musks-xai-launches-grok-4-alongside-a-300-monthly-subscription/"
+      ]
+    },
+    "api": {
+      "billing": "xAI API 与 Grok 聊天订阅分开计费",
+      "source": "https://docs.x.ai/console/faq/accounts"
+    }
+  },
+  "aixiamo": {
+    "checkedAt": "2026-08-12",
+    "product": "SuperGrok Heavy 3个月",
+    "priceCny": 580,
+    "periodMonths": 3,
+    "stockSnapshot": 20,
+    "delivery": [
+      "本人账号人工开通",
+      "成品账号交付"
+    ],
+    "payments": [
+      "支付宝",
+      "USDT-BEP20（BSC）",
+      "USDT-TRC20（TRON）"
+    ],
+    "wechatPayment": false,
+    "sensitiveCredentialsNotRequestedForOwnAccount": [
+      "密码",
+      "验证码",
+      "恢复码",
+      "Cookie",
+      "SSO",
+      "Session",
+      "Token"
+    ],
+    "ownerPage": "https://www.aixiamo.com/grok",
+    "productPage": "https://www.aixiamo.com/item/17",
+    "orderQuery": "https://www.aixiamo.com/order-query"
+  }
+}
