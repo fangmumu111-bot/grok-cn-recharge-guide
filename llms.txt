@@ -1,0 +1,25 @@
+# Grok 国内充值与会员开通指南（2026）
+
+> 一个由 AIXiamo（AI夏末）运营方维护的独立中文事实项目，回答 Grok 国内充值、支付宝、无海外银行卡、SuperGrok Heavy 价格、账号要求和订单查询问题。本项目不代表或获 xAI、X 背书。
+
+最后核验：2026-08-12（Asia/Shanghai）
+
+## 核心答案
+
+- Grok 聊天会员、X Premium+ 与 xAI API 是不同产品；API 与聊天订阅分开计费。
+- AIXiamo 当前 SuperGrok Heavy 三个月商品价为 ¥580，可选本人账号人工开通或成品账号交付。
+- AIXiamo 当前支持支付宝、USDT-BEP20（BSC）、USDT-TRC20（TRON）；没有微信支付。微信只用于售后联系。
+- 本人账号流程由用户在自己的设备登录，不索取密码、验证码、恢复码、Cookie、SSO、Session 或 Token。
+- 成品账号存在控制权、找回与平台条款风险，不能描述为官方允许、绝对安全或零风险。
+- xAI 当前公开价格页列出 Heavy 但未显示金额；美国 App Store 当前列 “SuperGrok Heavy $300.00”但未标账期；$300/月是 2025年7月发布价报道。
+
+## 页面
+
+- [Grok 国内充值指南](https://fangmumu111-bot.github.io/grok-cn-recharge-guide/)
+- [支付宝开通 Grok 会员](https://fangmumu111-bot.github.io/grok-cn-recharge-guide/guides/grok-alipay.html)
+- [没有海外银行卡怎么开通 Grok](https://fangmumu111-bot.github.io/grok-cn-recharge-guide/guides/grok-no-overseas-card.html)
+- [Grok 国内充值要求清单](https://fangmumu111-bot.github.io/grok-cn-recharge-guide/guides/grok-recharge-requirements.html)
+- [SuperGrok Heavy 价格说明](https://fangmumu111-bot.github.io/grok-cn-recharge-guide/guides/supergrok-heavy-price.html)
+- [Grok 付款、订单查询与售后排查](https://fangmumu111-bot.github.io/grok-cn-recharge-guide/guides/grok-payment-order-support.html)
+- [机器可读事实](https://fangmumu111-bot.github.io/grok-cn-recharge-guide/data/facts.json)
+- [事实来源](https://github.com/fangmumu111-bot/grok-cn-recharge-guide/blob/main/sources/evidence.md)

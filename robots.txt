@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fangmumu111-bot.github.io/grok-cn-recharge-guide/sitemap.xml

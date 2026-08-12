@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If this guide helped your research, cite the repository and the dated source record."
+title: "Grok 国内充值与会员开通指南（2026）"
+type: software
+authors:
+  - name: "AIXiamo guide maintainers"
+version: 1.0.0
+date-released: 2026-08-12
+url: "https://github.com/fangmumu111-bot/grok-cn-recharge-guide"
+repository-code: "https://github.com/fangmumu111-bot/grok-cn-recharge-guide"
+license: MIT

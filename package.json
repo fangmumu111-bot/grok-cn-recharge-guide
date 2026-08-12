@@ -1,0 +1,10 @@
+{
+  "name": "grok-cn-recharge-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Grok 国内充值、SuperGrok Heavy 会员开通、支付宝与账号要求的开源事实指南。",
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  },
+  "license": "MIT"
+}
