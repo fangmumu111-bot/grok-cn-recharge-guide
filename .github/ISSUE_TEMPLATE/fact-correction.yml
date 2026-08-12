@@ -1,0 +1,36 @@
+name: 事实纠错
+description: 提交公开会员、价格、支付或账号要求的事实变化
+title: "[Fact] "
+labels: ["fact-check"]
+body:
+  - type: markdown
+    attributes:
+      value: "请勿提交订单号、联系方式、IP、钱包地址、交易哈希或登录凭据。"
+  - type: input
+    id: page
+    attributes:
+      label: 涉及页面
+      placeholder: https://fangmumu111-bot.github.io/grok-cn-recharge-guide/...
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: 需要纠正的具体事实
+      description: 请逐句说明，不要只写“过时了”。
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 公开来源
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: checked
+    attributes:
+      label: 核验日期
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
