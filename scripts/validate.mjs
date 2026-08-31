@@ -29,7 +29,7 @@ for (const file of htmlFiles) {
   if (!/<meta name="description" content="[^"]{50,}"/i.test(html)) errors.push(`${file}: missing or short description`);
   if (!/"@type":"?Article"?|"@type": "Article"/i.test(html)) errors.push(`${file}: missing Article JSON-LD`);
   if (!/"@type":"?BreadcrumbList"?|"@type": "BreadcrumbList"/i.test(html)) errors.push(`${file}: missing BreadcrumbList JSON-LD`);
-  if (!/2026-08-12/.test(html)) errors.push(`${file}: missing fact-check date`);
+  if (!/2026-08-31/.test(html)) errors.push(`${file}: missing current fact-check date`);
   if (title) {
     if (titles.has(title)) errors.push(`${file}: duplicate title with ${titles.get(title)}`);
     titles.set(title, file);
@@ -43,14 +43,17 @@ for (const file of htmlFiles) {
       errors.push(`${file}: banned phrase ${phrase}`);
     }
   }
-  if (html.includes("微信支付") && !html.includes("没有微信支付") && !html.includes("不代表支持微信支付")) errors.push(`${file}: WeChat payment ambiguity`);
+  if (html.includes("微信支付") && !html.includes("付款前") && !html.includes("人工协助")) errors.push(`${file}: WeChat payment assistance boundary missing`);
   const externalCommercial = [...html.matchAll(/href="https:\/\/www\.aixiamo\.com\/(?:grok|item\/17|order-query)[^"]*"/g)].length;
   if (externalCommercial > 1) errors.push(`${file}: more than one task-matched commercial link (${externalCommercial})`);
 }
 
 const facts = JSON.parse(read("data/facts.json"));
-if (facts.aixiamo.priceCny !== 580 || facts.aixiamo.periodMonths !== 3) errors.push("facts.json: live offer mismatch");
-if (facts.aixiamo.wechatPayment !== false) errors.push("facts.json: WeChat payment must remain false");
+const livePlans = new Map(facts.aixiamo.plans?.map((plan) => [plan.periodMonths, plan.priceCny]));
+if (livePlans.get(1) !== 380 || livePlans.get(3) !== 580 || livePlans.size !== 2) errors.push("facts.json: live 1/3-month offer mismatch");
+if (facts.aixiamo.threeMonthSavingsVsMonthlyCny !== 560) errors.push("facts.json: three-month savings mismatch");
+if (facts.aixiamo.selfServiceWechatPayment !== false || facts.aixiamo.assistedWechatPaymentBeforeCheckout !== true) errors.push("facts.json: WeChat payment boundary mismatch");
+if (!facts.aixiamo.warranty.includes("验收后无质保")) errors.push("facts.json: warranty boundary missing");
 for (const credential of ["密码", "验证码", "恢复码", "Cookie", "SSO", "Session", "Token"]) {
   if (!facts.aixiamo.sensitiveCredentialsNotRequestedForOwnAccount.includes(credential)) errors.push(`facts.json: missing credential boundary ${credential}`);
 }

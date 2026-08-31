@@ -4,7 +4,7 @@
     "name": "Grok 国内充值与会员开通指南",
     "maintainer": "AIXiamo（AI夏末）运营方",
     "affiliation": "独立第三方项目，不代表或获 xAI、X 背书",
-    "checkedAt": "2026-08-12"
+    "checkedAt": "2026-08-31"
   },
   "official": {
     "free": {
@@ -29,17 +29,36 @@
         "https://techcrunch.com/2025/07/09/elon-musks-xai-launches-grok-4-alongside-a-300-monthly-subscription/"
       ]
     },
+    "currentCapabilities": {
+      "model": "Grok 4.6",
+      "facts": [
+        "实时 Web 与 X 搜索",
+        "Grok Build 已在 Web 与移动端向所有方案开放",
+        "Grok Bot 可用于符合条件的 SuperGrok Plus 与 SuperGrok Heavy 方案",
+        "图像、视频、语音、文件分析和连接器的实际可用范围以账号显示为准"
+      ],
+      "sources": [
+        "https://x.ai/pricing",
+        "https://x.ai/news/grok-build-for-everyone",
+        "https://docs.x.ai/grok-bot/get-started",
+        "https://x.ai/news/grok-bot-and-x"
+      ]
+    },
     "api": {
       "billing": "xAI API 与 Grok 聊天订阅分开计费",
       "source": "https://docs.x.ai/console/faq/accounts"
     }
   },
   "aixiamo": {
-    "checkedAt": "2026-08-12",
-    "product": "SuperGrok Heavy 3个月",
-    "priceCny": 580,
-    "periodMonths": 3,
-    "stockSnapshot": 20,
+    "checkedAt": "2026-08-31",
+    "product": "SuperGrok Heavy 高级会员",
+    "plans": [
+      {"periodMonths": 1, "priceCny": 380},
+      {"periodMonths": 3, "priceCny": 580}
+    ],
+    "recommendedPeriodMonths": 3,
+    "threeMonthSavingsVsMonthlyCny": 560,
+    "stockSnapshot": 18,
     "delivery": [
       "本人账号人工开通",
       "成品账号交付"
@@ -49,7 +68,9 @@
       "USDT-BEP20（BSC）",
       "USDT-TRC20（TRON）"
     ],
-    "wechatPayment": false,
+    "selfServiceWechatPayment": false,
+    "assistedWechatPaymentBeforeCheckout": true,
+    "warranty": "订单完成并验收后无质保；未完成约定交付仍按订单与公开售后规则核验",
     "sensitiveCredentialsNotRequestedForOwnAccount": [
       "密码",
       "验证码",
@@ -60,7 +81,7 @@
       "Token"
     ],
     "ownerPage": "https://www.aixiamo.com/grok",
-    "productPage": "https://www.aixiamo.com/item/17",
+    "productPage": "https://www.aixiamo.com/grok",
     "orderQuery": "https://www.aixiamo.com/order-query"
   }
 }

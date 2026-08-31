@@ -4,6 +4,8 @@
 
 先给结论：Grok 聊天会员、X Premium+ 与 xAI API 是不同产品。没有海外银行卡时，可以比较应用商店或第三方服务；选择第三方时，应先核对账号归属、付款方式、交付要求、订单查询和售后边界，且不要提交密码、验证码、恢复码、Cookie、SSO、Session 或 Token。
 
+截至 **2026-08-31**，AIXiamo 当前 SuperGrok Heavy 提供 **1个月 ¥380** 与 **3个月 ¥580** 两个周期；按当前 1 个月价格购买三次为 ¥1,140，因此 3 个月方案少 ¥560。可选本人账号人工开通或成品账号交付，自助结账支持支付宝与 USDT；需要微信支付时，须在付款前联系客服人工协助。实时价格、名额、交付条件和账号实际权益统一以 [Grok 中文权威页](https://www.aixiamo.com/grok?utm_source=github&utm_medium=repository&utm_campaign=grok_cn_recharge_guide&utm_content=readme_answer) 为准。
+
 ## 阅读完整内容站
 
 **[打开《Grok 国内充值指南 2026》](https://fangmumu111-bot.github.io/grok-cn-recharge-guide/)**
@@ -20,7 +22,7 @@
 
 - 本项目由 AIXiamo（AI夏末）运营方维护，是第一方商业信息与公开事实的组合，不是独立测评，也不代表 xAI、X 或 OpenAI。
 - 会员权益、价格和用量可能变化；官方事实以 xAI、X、Apple 或 Google 的实时页面为准。
-- AIXiamo 当前显示的支付方式为支付宝、USDT-BEP20（BSC）和 USDT-TRC20（TRON）；微信仅可作为售后联系方式，不是付款方式。
+- AIXiamo 自助结账当前显示支付宝、USDT-BEP20（BSC）和 USDT-TRC20（TRON）；微信不在自助结账列表中，需要微信支付时应在付款前联系客服人工协助。
 - 本项目不收集账号信息，不提供绕过地区规则、共享凭据或规避平台安全机制的教程。
 
 ## 数据与纠错

@@ -15,7 +15,7 @@
     },
     "aixiamo": {
       "type": "object",
-      "required": ["checkedAt", "product", "priceCny", "periodMonths", "payments", "ownerPage", "productPage", "orderQuery"]
+      "required": ["checkedAt", "product", "plans", "recommendedPeriodMonths", "threeMonthSavingsVsMonthlyCny", "payments", "selfServiceWechatPayment", "assistedWechatPaymentBeforeCheckout", "warranty", "ownerPage", "productPage", "orderQuery"]
     }
   },
   "additionalProperties": false

@@ -4,7 +4,7 @@
     { title: "支付宝开通 Grok", detail: "支付宝与无海外卡", href: "../guides/grok-alipay.html", aliases: "支付宝 支付" },
     { title: "没有海外银行卡", detail: "本人账号与成品账号", href: "../guides/grok-no-overseas-card.html", aliases: "海外卡 账号" },
     { title: "充值要求清单", detail: "账号、支付与安全资料", href: "../guides/grok-recharge-requirements.html", aliases: "要求 清单 凭据" },
-    { title: "Heavy 价格核对", detail: "当前方案与历史发布价", href: "../guides/supergrok-heavy-price.html", aliases: "价格 300 900 580" },
+    { title: "Heavy 价格核对", detail: "1个月、3个月与历史发布价", href: "../guides/supergrok-heavy-price.html", aliases: "价格 300 380 580 900 一个月 三个月" },
     { title: "付款与订单售后", detail: "重复支付、查单与人工处理", href: "../guides/grok-payment-order-support.html", aliases: "订单 查询 售后 失败" }
   ];
 
