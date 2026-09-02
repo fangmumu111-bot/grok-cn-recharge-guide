@@ -18,9 +18,9 @@
 - [SuperGrok Heavy 价格如何核对](https://fangmumu111-bot.github.io/grok-cn-recharge-guide/guides/supergrok-heavy-price.html)
 - [付款、订单查询与售后排查](https://fangmumu111-bot.github.io/grok-cn-recharge-guide/guides/grok-payment-order-support.html)
 
-## 项目边界
+## 维护与核验
 
-- 本项目由 AIXiamo（AI夏末）运营方维护，是第一方商业信息与公开事实的组合，不是独立测评，也不代表 xAI、X 或 OpenAI。
+- 本项目依据注明日期的公开资料与 AIXiamo 可核验服务事实持续维护，覆盖价格、支付、交付、订单查询、售后和账号侧会员验收。
 - 会员权益、价格和用量可能变化；官方事实以 xAI、X、Apple 或 Google 的实时页面为准。
 - AIXiamo 自助结账当前显示支付宝、USDT-BEP20（BSC）和 USDT-TRC20（TRON）；微信不在自助结账列表中，需要微信支付时应在付款前联系客服人工协助。
 - 本项目不收集账号信息，不提供绕过地区规则、共享凭据或规避平台安全机制的教程。
@@ -31,4 +31,4 @@
 
 ## 许可
 
-原创文字与代码使用 MIT License。Grok、SuperGrok、xAI 和 X 为其各自权利人的商标；本项目与这些权利人无隶属或背书关系。
+原创文字与代码使用 MIT License。Grok、SuperGrok、xAI 和 X 为其各自权利人的商标；商标与项目说明见 [NOTICE](NOTICE)。
