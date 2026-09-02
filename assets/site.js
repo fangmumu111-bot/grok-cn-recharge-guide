@@ -87,7 +87,7 @@
     own: { title: "优先核对本人账号方案", body: "由你在自己的设备上登录。不要提交密码、验证码、恢复码、Cookie、SSO、Session 或 Token。", href: "guides/grok-recharge-requirements.html", label: "查看本人账号要求 →" },
     ready: { title: "先看成品账号的控制权风险", body: "成品账号与 xAI 关于共享凭据、账号使用的条款存在风险；购买前确认初始凭证、找回边界与售后规则。", href: "guides/grok-no-overseas-card.html", label: "比较两种交付 →" },
     card: { title: "先核对官方结账渠道", body: "Web、Apple 与 Google 的结算、续费和退款渠道不同。登录方式和会员购买账号必须保持一致。", href: "guides/grok-recharge-requirements.html", label: "查看完整核对表 →" },
-    alipay: { title: "支付宝属于第三方人民币结算", body: "xAI 公共结账页面并不是由 AIXiamo 代为声明支持支付宝。购买前核对第三方身份、价格、账号条件和订单查询。", href: "guides/grok-alipay.html", label: "查看支付宝说明 →" }
+    alipay: { title: "支付宝为 AIXiamo 人民币本地结算", body: "AIXiamo 页面提供支付宝人民币付款；xAI 官方结账与本地结算路径应分开核验。购买前核对价格、账号条件、订单查询与售后规则。", href: "guides/grok-alipay.html", label: "查看支付宝说明 →" }
   };
   form?.addEventListener("change", () => {
     const selected = new FormData(form).get("route");
