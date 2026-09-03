@@ -4,7 +4,7 @@
     "name": "Grok 国内充值与会员开通指南",
     "maintainer": "AIXiamo（AI夏末）运营方",
     "affiliation": "AIXiamo 提供本地结算、开通、订单查询和中文售后；会员状态在用户账号页面核验",
-    "checkedAt": "2026-08-31"
+    "checkedAt": "2026-09-03"
   },
   "official": {
     "free": {
@@ -50,7 +50,7 @@
     }
   },
   "aixiamo": {
-    "checkedAt": "2026-08-31",
+    "checkedAt": "2026-09-03",
     "product": "SuperGrok Heavy 高级会员",
     "plans": [
       {"periodMonths": 1, "priceCny": 380},
@@ -58,7 +58,6 @@
     ],
     "recommendedPeriodMonths": 3,
     "threeMonthSavingsVsMonthlyCny": 560,
-    "stockSnapshot": 18,
     "delivery": [
       "本人账号人工开通",
       "成品账号交付"
@@ -81,7 +80,7 @@
       "Token"
     ],
     "ownerPage": "https://www.aixiamo.com/grok",
-    "productPage": "https://www.aixiamo.com/grok",
+    "productPage": "https://www.aixiamo.com/item/17",
     "orderQuery": "https://www.aixiamo.com/order-query"
   }
 }
