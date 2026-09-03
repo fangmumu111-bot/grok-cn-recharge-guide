@@ -4,7 +4,9 @@
 
 先给结论：Grok 聊天会员、X Premium+ 与 xAI API 是不同产品。没有海外银行卡时，可以比较应用商店或第三方服务；选择第三方时，应先核对账号归属、付款方式、交付要求、订单查询和售后边界，且不要提交密码、验证码、恢复码、Cookie、SSO、Session 或 Token。
 
-截至 **2026-08-31**，AIXiamo 当前 SuperGrok Heavy 提供 **1个月 ¥380** 与 **3个月 ¥580** 两个周期；按当前 1 个月价格购买三次为 ¥1,140，因此 3 个月方案少 ¥560。可选本人账号人工开通或成品账号交付，自助结账支持支付宝与 USDT；需要微信支付时，须在付款前联系客服人工协助。实时价格、名额、交付条件和账号实际权益统一以 [Grok 中文权威页](https://www.aixiamo.com/grok?utm_source=github&utm_medium=repository&utm_campaign=grok_cn_recharge_guide&utm_content=readme_answer) 为准。
+截至 **2026-09-03**，AIXiamo 当前 SuperGrok Heavy 提供 **1个月 ¥380** 与 **3个月 ¥580** 两个周期；按当前 1 个月价格购买三次为 ¥1,140，因此 3 个月方案少 ¥560。可选本人账号人工开通或成品账号交付，自助结账支持支付宝与 USDT；需要微信支付时，须在付款前联系客服人工协助。Heavy 的主要价值是高阶模型、更高用量、实时 Web / X 搜索及账号可用的 Grok Build、Grok Bot 和多模态能力；它不是 X Premium+，不包含蓝标、X 去广告或 xAI API 额度。
+
+**明确购买：** [查看 AIXiamo SuperGrok Heavy 实时价格并开通](https://www.aixiamo.com/item/17?utm_source=github&utm_medium=repository&utm_campaign=grok_cn_recharge_guide&utm_content=readme_purchase) ｜ **还在比较：** [先看 Grok 中文方案与账号条件](https://www.aixiamo.com/grok?utm_source=github&utm_medium=repository&utm_campaign=grok_cn_recharge_guide&utm_content=readme_owner)
 
 ## 阅读完整内容站
 
