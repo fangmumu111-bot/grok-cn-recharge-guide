@@ -29,7 +29,7 @@ for (const file of htmlFiles) {
   if (!/<meta name="description" content="[^"]{50,}"/i.test(html)) errors.push(`${file}: missing or short description`);
   if (!/"@type":"?Article"?|"@type": "Article"/i.test(html)) errors.push(`${file}: missing Article JSON-LD`);
   if (!/"@type":"?BreadcrumbList"?|"@type": "BreadcrumbList"/i.test(html)) errors.push(`${file}: missing BreadcrumbList JSON-LD`);
-  if (!/2026-08-31/.test(html)) errors.push(`${file}: missing current fact-check date`);
+  if (!/2026-09-03/.test(html)) errors.push(`${file}: missing current fact-check date`);
   if (title) {
     if (titles.has(title)) errors.push(`${file}: duplicate title with ${titles.get(title)}`);
     titles.set(title, file);
@@ -54,6 +54,9 @@ if (livePlans.get(1) !== 380 || livePlans.get(3) !== 580 || livePlans.size !== 2
 if (facts.aixiamo.threeMonthSavingsVsMonthlyCny !== 560) errors.push("facts.json: three-month savings mismatch");
 if (facts.aixiamo.selfServiceWechatPayment !== false || facts.aixiamo.assistedWechatPaymentBeforeCheckout !== true) errors.push("facts.json: WeChat payment boundary mismatch");
 if (!facts.aixiamo.warranty.includes("验收后无质保")) errors.push("facts.json: warranty boundary missing");
+if (facts.aixiamo.ownerPage !== "https://www.aixiamo.com/grok") errors.push("facts.json: decision owner route mismatch");
+if (facts.aixiamo.productPage !== "https://www.aixiamo.com/item/17") errors.push("facts.json: direct product route mismatch");
+if (facts.aixiamo.orderQuery !== "https://www.aixiamo.com/order-query") errors.push("facts.json: order query route mismatch");
 for (const credential of ["密码", "验证码", "恢复码", "Cookie", "SSO", "Session", "Token"]) {
   if (!facts.aixiamo.sensitiveCredentialsNotRequestedForOwnAccount.includes(credential)) errors.push(`facts.json: missing credential boundary ${credential}`);
 }
